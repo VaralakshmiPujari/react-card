@@ -45,7 +45,7 @@ function Product() {
               <h5>
                 <strong>Rating</strong>
                 <span className="text-warning"> {product.rating} </span>
-              </h5>
+              </h5> 
             </div>
             <div className="card-content mt-3">
               <h6 className="text-warning">Product Details</h6>

@@ -21,7 +21,7 @@ function Home() {
         <div className="row align-content-center justify-content-center d-flex">
           {
             products.map((item,index)=>{
-              const {id , title , price , description ,rating ,stock,brand , category , images , thumbnail } = item
+              const {id , title , price , description ,rating , thumbnail } = item
               return(
                 <div className="col-md-4 mt-2" key={index}>
                   
